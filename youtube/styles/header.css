@@ -42,6 +42,7 @@
   border-color: gray;
   border-radius: 2px;
   box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 0;
 }
 .search-bar::placeholder{
   font-family: Roboto,Arial;
@@ -80,12 +81,13 @@
 }
 
 .right-section{
-  width: 190px;
+  width: 180px;
   display: flex;
   margin-right: 20px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .image{
